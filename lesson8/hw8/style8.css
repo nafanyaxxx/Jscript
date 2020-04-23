@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 80px;
+  font-family: 'Inconsolata', monospace;
+  padding: 20px 60px;
+  background-image: url(./img/IMAGE.png);
+}
+
+.header__links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 120px;
+}
+
+.header__links-list-item {
+  font-size: 14px;
+  font-family: "Dosis";
+  color: white;
+  line-height: 2.071;
+  left: 10.937px;
+  top: 45.723px;
+  z-index: 174;
+  padding: 2px 28px;
+}
+
+.header__btn-app {
+  font-size: 14px;
+  font-family: "Dosis";
+  color: #233148;
+  background-color: #00fff0;
+  line-height: 3.571;
+  position: absolute;
+  left: 1280.937px;
+  top: 36.253px;
+  z-index: 170;
+  border-radius: 10%;
+  width: 160px;
+  height: 40px;
+}
+
+.choose_a_better_way_ {
+  font-size: 39.431px;
+  font-family: "Dosis";
+  color: white;
+  line-height: 1.25;
+  position: absolute;
+  left: 481.937px;
+  top: 311.293px;
+  z-index: 165;
+}
+
+.cras_ultricies_ligul {
+  font-size: 14px;
+  font-family: "Dosis";
+  color: #97a4be;
+  line-height: 2.071;
+  position: absolute;
+  left: 474.937px;
+  top: 444.81px;
+  width: 408px;
+  height: 72px;
+  z-index: 164;
+}
+
+.btn__reach {
+  font-size: 14px;
+  font-family: "Dosis";
+  color: white;
+  background-color: #223047;
+  line-height: 2.071;
+  position: absolute;
+  left: 674px;
+  top: 551px;
+  width: 144px;
+  height: 42px;
+  z-index: 162;
+  border-radius: 10%;
+  border: solid;
+}
+
+.btn__download {
+  font-size: 14px;
+  font-family: "Dosis";
+  color: #233148;
+  background-color: #00fff0;
+  position: absolute;
+  left: 479px;
+  top: 552px;
+  width: 169px;
+  height: 40px;
+  z-index: 160;
+  border-radius: 10%;
+}
+
+.Mask {
+  background-color: #223047;
+  opacity: 0.8;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 700px;
+  z-index: 158;
+}
+/*# sourceMappingURL=style8.css.map */

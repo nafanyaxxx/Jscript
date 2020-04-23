@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse; 
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+td {
+    border: 6px solid #000;
+}
+.yellow {
+    background-color: #fffa69;
+}
+.red {
+    background-color: #ff5b2d;
+}
+.black {
+    background-color: #000000;
+}
+.blu {
+    background-color: #074481;
+}
+.letter { 
+    font-family: Arial;
+}

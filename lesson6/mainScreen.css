@@ -1,0 +1,330 @@
+.main__main-screen {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background: url(./img/wallpapers_ru_kpekep_1440x900_on_the_horizon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__main-screen div:first-of-type {
+  margin-top: 60px;
+  z-index: 1;
+}
+
+.main__main-screen div:first-of-type .main__head-caption {
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 32px;
+}
+
+.main__main-screen div:first-of-type span {
+  margin-top: 20px;
+  display: block;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
+}
+
+.main__main-sales-btn {
+  padding: 16px 80px;
+  cursor: pointer;
+  z-index: 1;
+  margin-top: 60px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+
+.go-down {
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  background-color: #c4c4c4;
+}
+
+.main__sales {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+  background: url(./img/wallpapers_ru_kpekep_1440x900_on_the_horizon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main__sales-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+.main__sales-block .block__first-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.main__sales-block .block__first-block .img__Telescope {
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0px 0px;
+}
+
+.main__sales-block .block__first-block .buy__Telescope {
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 10px 50px;
+  background-color: #c4c4c4;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.main__sales-block .block__next-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.main__sales-block .block__next-block .img__Telescope {
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0px 0px;
+}
+
+.main__sales-block .block__next-block .buy__Telescope {
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 10px 50px;
+  background-color: #c4c4c4;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.main__sales-block-inside {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  margin: 0 40px;
+}
+
+.main__feedback {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.main__feedback-all-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.main__feedback-all-section .feedback__left-section .feedback__button-left {
+  position: absolute;
+  padding: 20px;
+  font-size: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: 8%;
+  margin-left: 10%;
+  left: 0;
+  background-color: white;
+}
+
+.main__feedback-all-section .feedback__center-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__feedback-all-section .feedback__center-section .feedback_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.main__feedback-all-section .feedback__center-section .feedback__name {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.main__feedback-all-section .feedback__center-section .feedback__text {
+  width: 400px;
+  padding: 10px;
+  background-color: #c4c4c4;
+  margin-top: 30px;
+  word-spacing: 4px;
+}
+
+.main__feedback-all-section .feedback__right-section .feedback__button-right {
+  position: absolute;
+  padding: 20px;
+  font-size: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: 8%;
+  margin-right: 10%;
+  right: 0;
+  background-color: white;
+}
+
+/*section contacts*/
+.main__contacts {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(./img/wallpapers_ru_kpekep_1440x900_on_the_horizon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Bebas Neue';
+  margin-top: 20px;
+}
+
+.main__contacts .contacts__span-first {
+  font-size: 50px;
+  color: #fff;
+  z-index: 1;
+}
+
+.main__contacts .contacts__span-second {
+  font-size: 30px;
+  margin-top: 30px;
+  color: #fff;
+  z-index: 1;
+}
+
+.shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(24, 23, 23, 0.466);
+  z-index: 0;
+}
+
+.main__go-down {
+  position: absolute;
+  padding: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  bottom: 10px;
+  z-index: 1;
+}
+
+.shadow-contacts {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(24, 23, 23, 0.466);
+  z-index: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  font-family: 'Bebas Neue', cursive;
+  background-color: rgba(0, 0, 0, 0.945);
+}
+
+.footer .footer__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__section .footer__img {
+  height: 100px;
+  width: 100px;
+  margin-left: 10%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer .footer__section .footer__information {
+  margin-right: 10%;
+  color: white;
+}
+/*# sourceMappingURL=mainScreen.css.map */

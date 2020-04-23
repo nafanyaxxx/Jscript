@@ -1,0 +1,236 @@
+.reviews {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url(/fdz/img/background_reviews.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.reviews .content_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: start;
+  width: 100%;
+  margin: 60px 0px 80px 0px;
+}
+
+.reviews .content_flex .client-says-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.reviews .content_flex .client-says-flex .client-says {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 550px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 550px));
+  grid-column-gap: 50px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reviews .content_flex .client-says-flex .client-says__first {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 150px 380px;
+      grid-template-columns: 150px 380px;
+}
+
+.reviews .content_flex .client-says-flex .client-says__first .text-reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews .content_flex .client-says-flex .client-says__first .img-first {
+  width: 130px;
+  height: 130px;
+}
+
+.reviews .content_flex .client-says-flex .client-says__first-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: #ffff;
+  padding: 20px 20px;
+}
+
+.reviews .content_flex .client-says-flex .client-says__first-text .names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px dotted;
+  padding: 0 10px;
+}
+
+.reviews .content_flex .client-says-flex .client-says__first .client-says__first-text span {
+  margin-top: 20px;
+}
+
+.reviews .content_flex .client-says-flex .client-says__first .border {
+  border: 20px solid transparent;
+  border-right: 30px solid #ffff;
+}
+
+.reviews .content_flex .client-says-flex .client-says__second {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 150px 380px;
+      grid-template-columns: 150px 380px;
+  grid-auto-flow: column;
+}
+
+.reviews .content_flex .client-says-flex .client-says__second .text-reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews .content_flex .client-says-flex .client-says__second .img-second {
+  width: 130px;
+  height: 130px;
+}
+
+.reviews .content_flex .client-says-flex .client-says__second .client-says__first-text span {
+  margin-top: 20px;
+}
+
+.reviews .content_flex .client-says-flex .client-says__second .border {
+  border: 20px solid transparent;
+  border-right: 30px solid #ffff;
+}
+
+.reviews .content_flex h3 {
+  color: #3232fa;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.reviews .content_flex h3 .color_text {
+  color: #f0a210;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 1160px) {
+  .reviews .content_flex .client-says-flex .client-says {
+    grid-column-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .reviews .content_flex .client-says-flex .client-says {
+    grid-row-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .reviews .content_flex .client-says-flex .client-says__first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .reviews .content_flex .client-says-flex .client-says__first .img-first {
+    position: relative;
+    top: 10px;
+  }
+  .reviews .content_flex .client-says-flex .client-says__first .client-says__first-text {
+    padding: 20px 10px;
+  }
+  .reviews .content_flex .client-says-flex .client-says__first .text-reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+  }
+  .reviews .content_flex .client-says-flex .client-says__first .text-reviews .border {
+    border: 20px solid transparent;
+    border-bottom: 30px solid #ffff;
+  }
+  .reviews .content_flex .client-says-flex .client-says__second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .reviews .content_flex .client-says-flex .client-says__second .img-second {
+    position: relative;
+    top: 10px;
+  }
+  .reviews .content_flex .client-says-flex .client-says__second .client-says__first-text {
+    padding: 20px 10px;
+  }
+  .reviews .content_flex .client-says-flex .client-says__second .text-reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+  }
+  .reviews .content_flex .client-says-flex .client-says__second .text-reviews .border {
+    border: 20px solid transparent;
+    border-bottom: 30px solid #ffff;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .reviews .content_flex h3 {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=reviews.css.map */

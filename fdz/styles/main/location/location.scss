@@ -1,0 +1,87 @@
+.location {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__content {
+        margin-left: 390px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+
+        &_text {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        &_text p {
+            margin-left: 20px;
+        }
+
+        &_social-icon {
+            margin: 40px 0px 35px 0px;
+
+            .twitter {
+                margin: 0 20px;
+            }
+        }
+
+        &_social-icon a {
+            cursor: pointer;
+        }
+    }
+
+    &__content .location__content_text:first-child {
+        img {
+            height: 30px;
+            margin-top: 5px;
+        }
+
+        p{
+            line-height: 2;
+        }
+    }
+
+    &__content .location__content_text:nth-child(2) {
+        p{
+            margin-top: 5px;
+            margin-left: 25px;
+        }
+    }
+
+    &__img {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .location {
+        &__content {
+            margin-left: 250px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .location {
+        &__content {
+            margin-left: 150px;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .location {
+        flex-direction: column;
+        align-items: center;
+
+        &__content {
+            margin-left: 0px;
+        }
+        &__img {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}

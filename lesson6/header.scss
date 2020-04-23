@@ -1,0 +1,46 @@
+// @import url('/lesson6/variables.scss');
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+}
+ul,ol {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.945);
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+
+  &__links-list {
+    display: flex;
+
+    &-item {
+      padding: 2px 22px;
+      cursor: pointer;
+      font-family: 'Bebas Neue', cursive;
+      color: white;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+
+  &__main-logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 22px;
+  }
+}
+

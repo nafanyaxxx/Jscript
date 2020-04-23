@@ -1,0 +1,102 @@
+.services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        width: 1025px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_heading {
+            margin-top: 70px;
+            color: #41525c;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+        }
+
+        &-blocks {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin-top: 80px;
+            grid-column-gap: 50px;
+
+            &-information {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            &-information img {
+                width: 130px;
+                height: 130px;
+            }
+
+            &-information p {
+                margin-top: 35px;
+                color: #3070a8;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            &-information span {
+                margin-top: 35px; margin-bottom: 60px;
+                font-family: 'Open Sans', sans-serif;
+                color: #999999;
+                font-size: 14px;
+                line-height: 2;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .services {
+        &__content {
+            &-blocks {
+                &-information img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .services {
+        &__content {
+            &_heading {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .services {
+        &__content {
+            &-blocks {
+                display: flex;
+                flex-direction: column;
+                padding: 0 100px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .services {
+        &__content {
+            &-blocks {
+                display: flex;
+                flex-direction: column;
+                padding: 0 20px;
+            }
+        }
+    }
+}

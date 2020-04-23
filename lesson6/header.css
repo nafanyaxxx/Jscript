@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.945);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+.header__links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__links-list-item {
+  padding: 2px 22px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+.header__links-list-item:hover {
+  color: red;
+}
+
+.header__main-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 22px;
+}
+/*# sourceMappingURL=header.css.map */
